@@ -1,0 +1,23 @@
+
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: justify;
+}
+
+.container img {
+    margin-left: 20px;
+}
+.container img {
+    margin-left: 20px;
+    width:500px; /* Ajusta el valor según tus preferencias */
+}
+ 
+h2 {
+    font-size: 40px; /* Ajusta el tamaño de fuente según tus preferencias */
+}
