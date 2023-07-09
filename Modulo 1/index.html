@@ -10,27 +10,50 @@
     </head>
 
     <body>
-
-        <!-- Creare segun lo solicitado una barra de navegacion -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#" style="color: #ffffff;">Agrupación Folclórica Hueyel de Rancagua</a>
-
-        </nav>
+        <nav class="navbar navbar-expand-lg" id="myNavbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Agrupacion Folclorica Hueyel de Rancagua</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Equipo Regional</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menú
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Próximos Eventos</a></li>
+                      <li><a href="#">Inscripciones</a></li>
+                      <li><a href="#">Equipo Regional</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Integrantes</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+  
 
         <div class="container">
             <div style="text-align: center;"><h4> Somos Emblema del Folclór Regional, 15 años de Trayectoria.</h4></div>
             <div style="text-align: center;"><h6> Imagenes de muestra de nuestra agrupación Folclórica</h6></div> 
 
-            <!-- creare con dropdown un menu plegable, todavia no se como unir los item del menu para que cambie la página-->
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menú
-                <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Proximos Eventos</a></li>
-                    <li><a href="#">Inscripciones</a></li>
-                    <li><a href="#">Equipo Regional</a></li>
-                </ul>
-            </div>
+            
+        
 
             <!-- me piden ingresar un tota del 5 imagenes, las que deben cumplir con algunos requisitos. 
              De las 5 imágenes, dos deben ser de tipo circle y tres rounded, utilizo para eso bootstrap segun entiendo.-->
@@ -163,6 +186,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="script.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
 
 
         <!-- en general las funciones de script me parecieron  necesarias para que se interactue con la página a nivel usuario, en particular espero que con el tiempomla complejidad pueda generar miles de este tipo de funciones para ir mejorando mi pagina web.  -->

@@ -1,6 +1,22 @@
-/* Estilos de la barra de navegación */
-.navbar {
-    background-color: black; /* Establezco el color de fondo de la barra de navegación como negro */
+
+
+/* Creacion del estilo de cada item de la barra de navegacion y el menu plegable*/
+
+#myNavbar{
+    background-color: black;
+}
+
+#myNavbar,
+#myNavbar .navbar-brand,
+#myNavbar .nav-link,
+#myNavbar .dropdown-toggle,
+#myNavbar .form-control,
+#myNavbar .btn {
+  color: white;
+}
+
+#myNavbar .dropdown-menu li a{
+    color:black
 }
 
 /* agrego el estilo del footer */
