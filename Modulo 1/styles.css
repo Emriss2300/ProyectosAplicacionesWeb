@@ -1,5 +1,3 @@
-
-
 /* Creacion del estilo de cada item de la barra de navegacion y el menu plegable*/
 
 #myNavbar{
@@ -10,7 +8,6 @@
 #myNavbar .navbar-brand,
 #myNavbar .nav-link,
 #myNavbar .dropdown-toggle,
-#myNavbar .form-control,
 #myNavbar .btn {
   color: white;
 }
@@ -18,6 +15,13 @@
 #myNavbar .dropdown-menu li a{
     color:black
 }
+
+/*Arreglo para que el color del texto en la casilla de busqueda sea negro */
+
+.form-control{
+    color: black;
+}
+
 
 /* agrego el estilo del footer */
 footer {
