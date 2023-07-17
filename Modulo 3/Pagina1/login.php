@@ -18,7 +18,7 @@ if ($conn->connect_error) {
 }
 
 // Consulta SQL para verificar las credenciales del usuario
-$sql = "SELECT * FROM personal WHERE usuario = '$usuario' AND password = '$userpassword'"; // Utilizar la nueva variable
+$sql = "SELECT * FROM usuario WHERE usuario = '$usuario' AND password = '$userpassword'"; // Utilizar la nueva variable
 
 $result = $conn->query($sql);
 

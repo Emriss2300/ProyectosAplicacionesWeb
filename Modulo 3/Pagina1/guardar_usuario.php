@@ -18,7 +18,7 @@ if ($conn->connect_error) {
 }
 
 // Consulta SQL para verificar si el usuario ya existe en la base de datos
-$sql = "SELECT * FROM personal WHERE usuario = '$usuario'";
+$sql = "SELECT * FROM usuario WHERE usuario = '$usuario'";
 $result = $conn->query($sql);
 
 // Verificar si se encontró un registro con el mismo usuario en la base de datos
@@ -27,7 +27,7 @@ if ($result->num_rows > 0) {
     echo "El usuario ya está registrado. Por favor, elige otro nombre de usuario.";
 } else {
     // El usuario no existe, guardar la información en la base de datos
-    $sql = "INSERT INTO personal (usuario, password) VALUES ('$usuario', '$userpassword')";
+    $sql = "INSERT INTO usuario (usuario, password) VALUES ('$usuario', '$userpassword')";
     if ($conn->query($sql) === TRUE) {
         // El usuario se guardó correctamente, redirigir al usuario a la página de inicio de sesión
         header("Location: index.php");
