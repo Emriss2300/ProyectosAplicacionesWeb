@@ -1,22 +1,41 @@
-¡Hola! Mi nombre es Francisco Núñez y este es mi sistema web. Permíteme explicarte cómo funciona.
+Hola. Bienvenido/a a mi página web interactiva de cambio de idiomas, mi nombre es Francisco Núñez
 
-Cuando accedes a la página principal, verás un cuento titulado "El cachorro del cazador". El cuento está escrito en español, pero tienes la opción de cambiar el idioma utilizando el formulario que se encuentra en la parte inferior de la página.
+Permíteme explicarte cómo funciona este sistema y qué necesitas para ejecutarlo correctamente.
 
-El cuento cuenta la historia de un perro cazador y uno de sus cachorros. El cachorro decide aventurarse solo en una cacería y, tras algunos intentos infructuosos, encuentra refugio en la madriguera de una liebre. Sin embargo, la liebre se burla de él por ser solo un cachorro y no saber ladrar correctamente. A medida que el cachorro persiste en sus intentos por ganarse el respeto, la historia da un giro inesperado.
+Requisitos previos:
 
-El sistema web utiliza PHP para controlar la traducción del cuento. Cuando seleccionas un idioma diferente en el formulario, se envía una solicitud POST al servidor. El servidor procesa esta solicitud y cambia el contenido del cuento según el idioma seleccionado. Actualmente, se admiten tres idiomas: español, inglés y francés.
+Asegúrate de tener acceso a internet para poder cargar la página y la base de datos.
+Necesitarás un entorno de ejecución de PHP instalado en tu servidor o computadora local.
 
-Además, el sistema muestra una imagen relacionada con el cuento. Las imágenes se encuentran en la carpeta contenedora junto con los archivos PHP y CSS.
+Configuración del entorno PHP:
 
-La página también tiene un estilo personalizado. El fondo tiene un color gris claro para brindar una apariencia suave y agradable. El cuento y la imagen están dispuestos en un contenedor que utiliza flexbox para alinearse y justificarse correctamente.
+Asegúrate de tener un servidor web configurado con soporte para PHP. Puedes usar software como Apache, Nginx o XAMPP (que incluye Apache y PHP) para configurar un entorno de desarrollo local.
+Asegúrate de tener la extensión de MySQLi habilitada en tu instalación de PHP para poder establecer la conexión con la base de datos.
+Base de datos:
 
+Antes de ejecutar la página, asegúrate de tener una base de datos MySQL configurada y lista para su uso.
+Debes crear una base de datos y una tabla llamada "info_pagina" con al menos las siguientes columnas: "idioma", "titulo" y "contenido".
+Asegúrate de proporcionar los detalles de conexión correctos en el código PHP (como el nombre de servidor, nombre de usuario, contraseña y nombre de la base de datos) para establecer la conexión con tu base de datos. de todas maneras se enviara dentro de este mismo archivo un sql con la base de datos necesaria para ejecutar. 
 
-¡Gracias por tu atención!
+Iniciar la página:
 
-Francisco Nuñez Ortiz.
+Una vez que hayas configurado el entorno de ejecución de PHP y la base de datos, puedes abrir el archivo "index.php" en tu navegador web preferido.
+Esto cargará la página principal del sistema.
 
+Interfaz de cambio de idioma:
 
+En la página principal, encontrarás un formulario con una lista desplegable y un botón "Cambiar idioma".
+La lista desplegable contiene los idiomas disponibles para la página, obtenidos desde la base de datos.
+Selecciona el idioma deseado de la lista.
+Haz clic en el botón "Cambiar idioma" para aplicar el cambio.
+Visualización del contenido:
 
+Una vez que hayas seleccionado un idioma y presionado el botón "Cambiar idioma", la página se actualizará automáticamente.
+Verás el título del cuento en el idioma seleccionado y el contenido correspondiente, obtenidos desde la base de datos.
+Además, se mostrará una imagen relacionada con el cuento.
+¡Eso es todo! Ahora estás listo/a para utilizar mi página web interactiva de cambio de idiomas.
 
+¡Disfruta tu experiencia!
 
-
+Saludo
+Francisco Núñez O
