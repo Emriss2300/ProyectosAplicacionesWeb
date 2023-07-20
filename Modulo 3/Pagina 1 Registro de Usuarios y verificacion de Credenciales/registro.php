@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Registro de Usuario</title>
     <style>
+        /* Estilos de la página */
         body {
             margin: 0;
             padding: 0;
@@ -57,10 +58,10 @@
             $password = $_POST['password'];
 
             // Configuración de la conexión a la base de datos
-            $servername = "localhost"; // Cambia esto si tu base de datos está en otro servidor
+            $servername = "localhost"; // 
             $username = "Francisco1234";
-            $dbpassword = "1234"; // Cambia esto si la contraseña de tu base de datos es diferente
-            $dbname = "validar"; // Nombre de tu base de datos
+            $dbpassword = "1234"; // 
+            $dbname = "validar"; // 
 
             // Crear la conexión a la base de datos
             $conn = new mysqli($servername, $username, $dbpassword, $dbname);
@@ -121,3 +122,8 @@
 </body>
 </html>
 
+<!--Francisco Nuñez O.
+ingenieria en Informática
+Instituto Profesional de Providencia
+Porgramacion de Aplicaciones Web
+Modulo 3.-->

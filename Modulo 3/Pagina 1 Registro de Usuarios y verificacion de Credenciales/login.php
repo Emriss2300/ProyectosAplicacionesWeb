@@ -1,13 +1,13 @@
 <?php
 // Configuración de la conexión a la base de datos
-$servername = "localhost"; // Cambia esto si tu base de datos está en otro servidor
+$servername = "localhost"; // 
 $username = "Francisco1234";
-$dbpassword = "1234"; // Cambia esto si la contraseña de tu base de datos es diferente
-$dbname = "validar"; // Nombre de tu base de datos
+$dbpassword = "1234"; // 
+$dbname = "validar"; // 
 
 // Obtener los datos enviados desde el formulario
 $usuario = $_POST['usuario'];
-$userpassword = $_POST['password']; // Cambiado el nombre de la variable
+$userpassword = $_POST['password']; // 
 
 // Crear la conexión a la base de datos
 $conn = new mysqli($servername, $username, $dbpassword, $dbname);
@@ -37,3 +37,9 @@ if ($result->num_rows == 1) {
 // Cerrar la conexión a la base de datos
 $conn->close();
 ?>
+
+<!--Francisco Nuñez O.
+ingenieria en Informática
+Instituto Profesional de Providencia
+Porgramacion de Aplicaciones Web
+Modulo 3.-->

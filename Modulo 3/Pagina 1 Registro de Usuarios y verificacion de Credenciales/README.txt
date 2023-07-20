@@ -1,26 +1,36 @@
-Bienvenido a Hueyel Chile Online
+¡Bienvenido a Hueyel Chile Online!
 
-Este sistema web, desarrollado por Francisco Jesús Nuñez Ortiz, es una página dedicada a la Agrupación Folclórica Hueyel de Rancagua. El objetivo principal de esta página es proporcionar información sobre la agrupación, sus actividades, y permitir a los usuarios interesados en unirse a la agrupación ingresar sus datos de identificación.
+Soy Francisco Jesús Nuñez Ortiz, desarrollador de este sistema web dedicado a la Agrupación Folclórica Hueyel de Rancagua. Me complace presentarte las nuevas funcionalidades implementadas en la página para que puedas disfrutar de una experiencia más completa. Para utilizar estas funciones, asegúrate de contar con un entorno que permita la ejecución de PHP y SQL para el correcto funcionamiento de las consultas y registros en la base de datos.
 
-Funcionalidades
-La página consta de dos archivos principales: index.php y pagina.php.
+Registro de Usuarios:
 
-index.php: Este archivo contiene la página de inicio de Hueyel Chile Online. En esta página, los usuarios son recibidos con un formulario en el que pueden ingresar su nombre, edad y expresar su interés en obtener más información sobre la agrupación. Una vez que el usuario completa el formulario y hace clic en "Enviar", los datos son enviados al archivo pagina.php para su procesamiento.
+Hemos añadido una nueva característica que te permitirá registrarte en nuestra página y acceder a contenido exclusivo. Para registrarte, sigue estos sencillos pasos:
 
-pagina.php: En este archivo, los datos enviados desde el formulario de inicio son procesados. El nombre y la edad del usuario son mostrados en pantalla, junto con imágenes relacionadas a la agrupación. Dependiendo de la edad del usuario, se muestra una imagen específica. Además, si el usuario ha expresado interés en obtener más información, se muestra un carrusel con imágenes adicionales.
+En la página de inicio, encontrarás un formulario de "Registro de Usuario".
+Completa los campos solicitados, como "Usuario" y "Contraseña".
+Haz clic en el botón "Registrarse" para enviar tus datos.
+Verificaciones de Registro:
 
-Estructura de archivos
-index.php: Archivo principal que contiene la página de inicio y el formulario de ingreso de datos.
-pagina.php: Archivo que procesa los datos enviados desde el formulario y muestra la información correspondiente.
-script.js: Archivo JavaScript que incluye una función para mostrar un mensaje emergente de bienvenida.
-styles.css: Archivo CSS que contiene los estilos utilizados en la página.
-escudo.png: Archivo de imagen utilizado como icono de la página.
-Imágenes y recursos
-La carpeta contenedora del sistema web incluye varias imágenes que son utilizadas en la página, como imágenes de la agrupación, carrusel y otras ilustraciones relacionadas. Estas imágenes se encuentran en la misma carpeta que los archivos PHP.
+Una vez que te hayas registrado, hemos implementado un sistema de verificación para asegurarnos de que los usuarios sean únicos. Cuando envíes el formulario de registro, la página verificará si el nombre de usuario ya está en uso. Si el nombre de usuario ya existe, te mostraremos un mensaje de error indicándote que elige otro nombre de usuario.
 
-Cómo comenzar
-Para acceder a la página de inicio de Hueyel Chile Online, simplemente abre el archivo index.php en un navegador web compatible.
+Acceso a la Página de Inicio:
 
-Espero que esta descripción del sistema web sea útil para evaluar mi trabajo. Si tienes alguna pregunta adicional, no dudes en hacerla.
+Luego de registrarte con éxito, podrás acceder a la página de inicio de sesión utilizando tus credenciales. Ingresa tu nombre de usuario y contraseña en el formulario de "Inicio de Sesión" en la página principal y haz clic en el botón "Iniciar sesión".
 
-¡Gracias por tu atención!
+Actualización de la Página Principal:
+
+La página principal ahora muestra un carrusel de imágenes adicionales si has expresado interés en obtener más información sobre la agrupación. Si marcó la casilla de verificación "¿Estás interesado en la información de la página?" en el formulario de inicio, se mostrarán imágenes de diferentes presentaciones y eventos de la agrupación.
+
+Base de Datos:
+
+Para garantizar la persistencia de los datos de los usuarios, hemos implementado una base de datos llamada "validar". Esta base de datos contiene las tablas necesarias para almacenar la información de los usuarios registrados. El archivo SQL llamado "validar.sql" se encuentra en la carpeta contenedora del sistema web y fue utilizado para su desarrollo.
+
+Esperamos que estas nuevas funcionalidades mejoren tu experiencia en Hueyel Chile Online y te permitan disfrutar de toda la información y contenido que tenemos para ofrecer. Si tienes alguna pregunta adicional o necesitas asistencia, no dudes en contactarnos.
+
+¡Gracias por ser parte de nuestra comunidad folclórica!
+
+Francisco Nuñez O.
+ingenieria en Informática
+Instituto Profesional de Providencia
+Porgramacion de Aplicaciones Web
+Modulo 3.
