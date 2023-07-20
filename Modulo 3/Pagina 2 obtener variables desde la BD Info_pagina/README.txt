@@ -1,22 +1,40 @@
-¡Hola! Mi nombre es Francisco Núñez y este es mi sistema web. Permíteme explicarte cómo funciona.
+¡Bienvenido al Cuento Multilingüe!
 
-Cuando accedes a la página principal, verás un cuento titulado "El cachorro del cazador". El cuento está escrito en español, pero tienes la opción de cambiar el idioma utilizando el formulario que se encuentra en la parte inferior de la página.
+¡Hola! Este es el sistema web del Cuento Multilingüe, una experiencia interactiva que te permite disfrutar de un emocionante cuento en diferentes idiomas. 
 
-El cuento cuenta la historia de un perro cazador y uno de sus cachorros. El cachorro decide aventurarse solo en una cacería y, tras algunos intentos infructuosos, encuentra refugio en la madriguera de una liebre. Sin embargo, la liebre se burla de él por ser solo un cachorro y no saber ladrar correctamente. A medida que el cachorro persiste en sus intentos por ganarse el respeto, la historia da un giro inesperado.
+Permíteme explicarte cómo funciona:
 
-El sistema web utiliza PHP para controlar la traducción del cuento. Cuando seleccionas un idioma diferente en el formulario, se envía una solicitud POST al servidor. El servidor procesa esta solicitud y cambia el contenido del cuento según el idioma seleccionado. Actualmente, se admiten tres idiomas: español, inglés y francés.
+¿Cómo funciona?
+Al abrir la página, podrás sumergirte en una emocionante historia que se adapta a tu idioma preferido. Utilizamos PHP y MySQL para crear una experiencia fluida y atractiva. 
+Cuando cargas la página, el sistema se conecta a una base de datos local donde almacenamos los distintos idiomas disponibles y el contenido del cuento en cada uno.
 
-Además, el sistema muestra una imagen relacionada con el cuento. Las imágenes se encuentran en la carpeta contenedora junto con los archivos PHP y CSS.
+Lo mejor de todo es que puedes cambiar el idioma del cuento con solo un clic. Siéntete libre de explorar la historia en español, inglés, francés o cualquier otro idioma que te guste dentro de la lista de opciones. 
 
-La página también tiene un estilo personalizado. El fondo tiene un color gris claro para brindar una apariencia suave y agradable. El cuento y la imagen están dispuestos en un contenedor que utiliza flexbox para alinearse y justificarse correctamente.
+Requisitos para utilizar el sistema:
 
+Para que puedas disfrutar del Cuento Multilingüe, asegúrate de tener lo siguiente:
 
-¡Gracias por tu atención!
+1. Un entorno de servidor web local (como XAMPP, WAMP o MAMP) que admita PHP y MySQL.
+2. Una base de datos MySQL configurada con un usuario y contraseña.
+3. Descarga el archivo "validar.sql" que se encuentra en la carpeta principal de la aplicación. 
+Este archivo contiene las tablas y datos necesarios para el sistema.
 
-Francisco Nuñez Ortiz.
+¡Importante! Antes de ejecutar el sistema web, asegúrate de importar el archivo "validar.sql" a tu base de datos local para que el sistema pueda acceder a los datos correctamente.
 
+Pasos rápidos para importar el archivo SQL:
+1. Inicia tu servidor web local y asegúrate de que MySQL esté funcionando.
+2. Accede al panel de control de tu base de datos (como phpMyAdmin).
+3. Crea una nueva base de datos con el nombre "Validar" (asegúrate de usar el mismo nombre que se encuentra en el archivo de conexión PHP).
+4. Selecciona la base de datos "Validar" y busca la opción "Importar" en el panel de control de MySQL.
+5. Carga el archivo "validar.sql" y ejecútalo para importar las tablas y la información necesaria.
 
+¡Y eso es todo! Una vez que hayas importado el archivo SQL y configurado tu entorno, simplemente abre la página principal en tu navegador favorito y sumérgete en el emocionante Cuento Multilingüe.
 
+¡Esperamos que disfrutes de esta maravillosa aventura en múltiples idiomas!
 
-
+Francisco Nuñez O.
+ingenieria en Informática
+Instituto Profesional de Providencia
+Porgramacion de Aplicaciones Web
+Modulo 3.
 
